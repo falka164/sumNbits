@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/yrsa/Pulpit/sumNbits/sumNbits/sum4bitsTest_isim_beh.exe -prj /home/yrsa/Pulpit/sumNbits/sumNbits/sum4bitsTest_beh.prj work.sum4bitsTest 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/yrsa/Pulpit/sumNbits/sumNbits/sum1bitHalfAdder.vhd" into library work
+Parsing VHDL file "/home/yrsa/Pulpit/sumNbits/sumNbits/sum1bitFullAdder.vhd" into library work
+Parsing VHDL file "/home/yrsa/Pulpit/sumNbits/sumNbits/sum4bits.vhd" into library work
+Parsing VHDL file "/home/yrsa/Pulpit/sumNbits/sumNbits/sum4bitsTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95964 KB
+Fuse CPU Usage: 1530 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity sum1bitHalfAdder [sum1bithalfadder_default]
+Compiling architecture behavioral of entity sum1bitFullAdder [sum1bitfulladder_default]
+Compiling architecture behavioral of entity sum4bits [sum4bits_default]
+Compiling architecture behavior of entity sum4bitstest
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable /home/yrsa/Pulpit/sumNbits/sumNbits/sum4bitsTest_isim_beh.exe
+Fuse Memory Usage: 661644 KB
+Fuse CPU Usage: 1560 ms
+GCC CPU Usage: 570 ms

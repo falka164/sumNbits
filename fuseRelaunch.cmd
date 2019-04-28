@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "/home/yrsa/Pulpit/sumNbits/sumNbits/sum4bitsTest_isim_beh.exe" -prj "/home/yrsa/Pulpit/sumNbits/sumNbits/sum4bitsTest_beh.prj" "work.sum4bitsTest" 
